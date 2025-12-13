@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>児童発達支援・放課後等デイサービス人員配置チェッカー</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="tab-contents" id="tab-shift">
+  <h1>シフト人員基準チェック</h1>
+  <p>職員のシフトを入力し、省令基準を満たしているか確認します。</p>
+  <h2>シフト表</h2>
+
+  <div class="year-month">
+    <!--JSで年のプルダウンを作成-->  
+    <p class = "year">年</p>
+    <!--JSで月のプルダウンを作成-->
+    <p class = "month">月のシフトを</p>
+    <button class = "shiftCreate">確認</button>
+  </div>
+
+  <div class = "service-time">
+    <p>サービス提供時間：</p>
+    <select></select>
+    <p>から</p>
+    <select></select>
+    <p>まで</p>
+  </div>
+
+  <div class = "full-time">
+    <p>常勤職員が１週間に勤務すべき時間数：</p>
+    <select>
+      <option value="32">32</option>
+      <option value="33">33</option>
+      <option value="34">34</option>
+      <option value="35">35</option>
+      <option value="36">36</option>
+      <option value="37">37</option>
+      <option value="38">38</option>
+      <option value="39">39</option>
+      <option value="40">40</option>
+    </select>
+    <p>時間</p>
+  </div>
+
+  <div>
+    <button class="add-row">＋行を追加</button>
+  </div>
+
+  <table id="shiftTable">
+    <thead>
+      <tr>
+        <th class="name-col">氏名</th>
+        <th class="role-col">職種</th>
+        <!-- 日付ヘッダーはJSで自動生成 -->
+      </tr>
+    </thead>
+    <tbody>
+      <!--JSで作成-->
+    </tbody>
+  </table>
+
+<!--基準等審査-->
+  <div>
+    <button class="judgement">審査結果</button>
+  </div>
+
+  <table id = "judgeTable">
+    <thead>
+      <tr>
+        <th>内容</th>
+        <!-- 日付ヘッダーはJSで自動生成 -->
+      </tr>
+    </thead>
+    <tbody>
+      <!--JSで作成-->
+    </tbody>
+  </table>
+
+</div>

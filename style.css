@@ -1,0 +1,74 @@
+.year-month{
+    display: flex;
+    margin: 10px;
+}
+
+.service-time{
+    display: flex;
+    margin: 10px;
+}
+
+.full-time{
+    display: flex;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+th {
+    background: #f0f0f0;
+}
+    
+.name-col {
+    width: 150px;
+}
+
+.role-col {
+    width: 100px;
+}
+
+/* 以下、コードの内容まだ理解できていない。*/
+body {
+  font-family: 'メイリオ', sans-serif;
+  background: #fafafa;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2b4c7e;
+}
+
+button {
+  background-color: #2b4c7e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1f3559;
+}
+
+#shiftTable th, #judgeTable th {
+  background-color: #d9e6f2;
+}
+
+#shiftTable td, #judgeTable td {
+  background-color: #fff;
+}
+
+#shiftTable tr:nth-child(even), #judgeTable tr:nth-child(even) {
+  background-color: #f8f9fc;
+}
