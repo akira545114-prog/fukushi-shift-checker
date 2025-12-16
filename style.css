@@ -36,7 +36,6 @@ th {
     width: 100px;
 }
 
-/* 以下、コードの内容まだ理解できていない。*/
 body {
   font-family: 'メイリオ', sans-serif;
   background: #fafafa;
@@ -44,7 +43,7 @@ body {
   color: #333;
 }
 
-h1, h2 {
+h1, h2 ,h3 {
   color: #2b4c7e;
 }
 
